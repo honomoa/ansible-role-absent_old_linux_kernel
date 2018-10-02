@@ -1,0 +1,26 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  role_name: absent_old_linux_kernel
+  author: honomoa
+  description: Absent old linux kernel.
+  company: "Moa"
+  license: "license (CC BY-SA 3.0)"
+  min_ansible_version: 2.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  galaxy_tags:
+    - system
+    - development
+    - networking
+    - cloud
+    - database
+    - monitoring
+    - packaging
+    - apb
+    - security
+    - web

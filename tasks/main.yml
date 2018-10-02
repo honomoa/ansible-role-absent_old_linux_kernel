@@ -1,0 +1,8 @@
+---
+
+- name: Provision
+  become: true
+  include: provision.yml
+  tags:
+    - provision
+    - provision-absent_old_linux_kernel
